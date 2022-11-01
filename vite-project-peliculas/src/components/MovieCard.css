@@ -1,0 +1,31 @@
+.container-movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    transition: 0.5;
+    cursor: pointer;
+}
+
+.container-movieCard:hover{
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.container-img-movie{
+    border-radius: 15px;
+}
+
+.titulo-pelis{
+    color: #fff; 
+}
+
+/*  RESPONSIVE */
+
+@media (max-width: 560px) {
+    .container-movieCard{
+        width: 90%;
+        height: auto;
+    }
+    
+}
